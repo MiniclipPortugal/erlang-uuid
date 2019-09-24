@@ -3,7 +3,7 @@
   {description, "UUID v4 (random) generation and utilities"},
   {vsn, git},
   {registered, []},
-  {applications, [crypto]},
+  {applications, [crypto, kernel, stdlib]},
   {env, []}
  ]}.
 
